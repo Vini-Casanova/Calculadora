@@ -11,9 +11,9 @@ import javax.swing.JTextField;
 
 public class Tela implements ActionListener{
 
-  JFrame frame = new JFrame("Frame Novo");
+  JFrame frame = new JFrame("Calculadora");
   JTextField areaTexto = new JTextField();
-  ImageIcon image = new ImageIcon("/imgs/calculator.png");
+  ImageIcon image = new ImageIcon("./imgs/calculator.png");
   JButton[] numBotoes = new JButton[10];
   JButton[] funcBotoes = new JButton[6];
   JButton soma,subtracao,multiplicacao,divisao,delete,igual;
